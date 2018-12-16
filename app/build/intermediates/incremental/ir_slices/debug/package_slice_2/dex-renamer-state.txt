@@ -1,4 +1,0 @@
-#Sat Dec 15 21:39:52 CST 2018
-base.0=D\:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
-path.0=classes.dex
-renamed.0=classes.dex
