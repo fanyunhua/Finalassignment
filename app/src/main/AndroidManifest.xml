@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fanyuhua.finalassignment">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,10 +20,11 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".login.FindPassActivity" />
-        <activity android:name=".login.RegisterActivity"></activity>
+        <activity android:name=".login.RegisterActivity" />
+        <activity android:name=".guide.GuideActivity" />
+        <activity android:name=".tab.user.LogisticsActivity" />
+        <activity android:name=".tab.user.BrowseHistoryActivity" />
+        <activity android:name=".tab.user.BuyRecordActivity"></activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET"/>
-
 
 </manifest>

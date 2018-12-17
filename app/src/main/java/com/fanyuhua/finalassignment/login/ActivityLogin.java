@@ -12,8 +12,12 @@ import android.widget.Toast;
 
 import com.fanyuhua.finalassignment.MainActivity;
 import com.fanyuhua.finalassignment.R;
-import com.fanyuhua.finalassignment.util.sql.DataBaseHelper;
-
+import com.fanyuhua.finalassignment.util.util.DataBaseHelper;
+/**
+ *
+ * create by fanyuhua 2018.12.17
+ *
+ * */
 public class ActivityLogin extends AppCompatActivity {
     private DataBaseHelper dataBaseHelper;
     private android.widget.EditText name,pass;
@@ -21,27 +25,30 @@ public class ActivityLogin extends AppCompatActivity {
     private android.widget.TextView more,findPass,reg;
     private String name_data,pass_data;
     private CheckBox redPasswd,loginCB;
-    private SharedPreferences sp;
+    private SharedPreferences sp,sp2;
+    SharedPreferences.Editor editor,editor2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         sp = getSharedPreferences("setting",0);
-        SharedPreferences.Editor editor = sp.edit();
+        sp2 = getSharedPreferences("state",0);
 
-        boolean count = sp.getBoolean("count",true);
+        editor2 = sp2.edit();
+        editor = sp.edit();
+        boolean count = sp2.getBoolean("count",true);
         if(count)
         {
             editor.putString("user","");
             editor.putString("passwd","");
             editor.putBoolean("login",true);
-            editor.putBoolean("count",false);
+            editor2.putBoolean("count",false);
             editor.commit();
             initView();
             initEvent();
             create_databases();
             redPAsswdCB();
-            editor.commit();
+            editor2.commit();
         }
         else {
             boolean a =sp.getBoolean("login",true);
@@ -113,44 +120,7 @@ public class ActivityLogin extends AppCompatActivity {
                         new String[]{"name","passwd"},
                         null,
                         null,null,null,null);
-
-                if (name_data.replaceAll("\\s*", "").length()>0) {
-                    if (pass.getText().toString().replaceAll("\\s*", "").equals(pass.getText().toString().replaceAll("\\s*", ""))) {
-
-                        if(redPasswd.isChecked())
-                        {
-                            SharedPreferences.Editor editor = sp.edit();
-                            editor.putString("user",name_data);
-                            editor.putString("passwd",pass_data);
-                            editor.commit();
-                        }
-                        if(loginCB.isChecked())
-                        {
-
-                            redPasswd.setChecked(true);
-                            SharedPreferences.Editor editor = sp.edit();
-                            editor.putBoolean("login",false);
-                            editor.commit();
-                        }
-                        while (cursor.moveToNext())
-                        {
-                            //Toast.makeText(ActivityLogin.this,cursor.getString(0).toString()+":"+cursor.getString(1).toString(),Toast.LENGTH_LONG).show();
-                            if(name_data.equals(cursor.getString(0))&&pass_data.equals(cursor.getString(1)))
-                            {
-                                state = true;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Toast.makeText(ActivityLogin.this,"Entered passwords differ",Toast.LENGTH_LONG).show();
-                    }
-                }
-                else
-                {
-                    Toast.makeText(ActivityLogin.this,"Please enter the correct user name ",Toast.LENGTH_LONG).show();
-                }
-                if (state)
+                if (getLogin(cursor,name_data,pass_data))
                 {
                     Intent intent = new Intent(ActivityLogin.this,MainActivity.class);
                     startActivity(intent);
@@ -179,5 +149,44 @@ public class ActivityLogin extends AppCompatActivity {
 
             }
         });
+    }
+    private boolean getLogin(Cursor cursor,String name_data,String pass_data)
+    {
+
+        if (name_data.replaceAll("\\s*", "").length()>0) {
+            if (pass.getText().toString().replaceAll("\\s*", "").equals(pass.getText().toString().replaceAll("\\s*", ""))) {
+
+                if(redPasswd.isChecked())
+                {
+                    editor.putString("user",this.name_data);
+                    editor.putString("passwd",this.pass_data);
+                    editor.commit();
+                }
+                if(loginCB.isChecked())
+                {
+
+                    redPasswd.setChecked(true);
+                    editor.putBoolean("login",false);
+                    editor.commit();
+                }
+                while (cursor.moveToNext())
+                {
+                    //Toast.makeText(ActivityLogin.this,cursor.getString(0).toString()+":"+cursor.getString(1).toString(),Toast.LENGTH_LONG).show();
+                    if(name_data.equals(cursor.getString(0))&&pass_data.equals(cursor.getString(1)))
+                    {
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                Toast.makeText(ActivityLogin.this,"Entered passwords differ",Toast.LENGTH_LONG).show();
+            }
+        }
+        else
+        {
+            Toast.makeText(ActivityLogin.this,"Please enter the correct user name ",Toast.LENGTH_LONG).show();
+        }
+        return false;
     }
 }

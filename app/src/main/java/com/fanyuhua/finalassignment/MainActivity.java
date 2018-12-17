@@ -16,6 +16,12 @@ import com.fanyuhua.finalassignment.tab.Home;
 import com.fanyuhua.finalassignment.tab.More;
 import com.fanyuhua.finalassignment.tab.User;
 
+
+/**
+ *
+ * create by fanyuhua 2018.12.17
+ *
+ * */
 public class MainActivity extends AppCompatActivity implements TabHost.OnTabChangeListener{
 
     private FragmentTabHost fragmentTabHost;

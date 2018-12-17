@@ -200,12 +200,12 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
-        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -236,16 +236,16 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon1.jpg.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\drawable-v24\\icon1.jpg"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_icon1.jpg.flat",
-        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\drawable-v24\\icon1.jpg"
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
@@ -380,12 +380,12 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home2.png.flat",
         "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\drawable\\home2.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
@@ -900,28 +900,28 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c2ed22b66ab893f5c49512baa8e5fb33\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
-        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c2ed22b66ab893f5c49512baa8e5fb33\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -946,6 +946,10 @@
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_buy_record.xml.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\layout\\activity_buy_record.xml"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1140,6 +1144,10 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_logistics.xml.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\layout\\activity_logistics.xml"
+    },
+    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -1198,6 +1206,10 @@
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_browse_history.xml.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\layout\\activity_browse_history.xml"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
@@ -1268,12 +1280,12 @@
         "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\layout\\avtivity_more.xml"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user_login.png.flat",
         "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\drawable\\user_login.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -1332,12 +1344,12 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c2ed22b66ab893f5c49512baa8e5fb33\\res\\layout-v16\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c2ed22b66ab893f5c49512baa8e5fb33\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c2ed22b66ab893f5c49512baa8e5fb33\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1358,6 +1370,10 @@
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tip2.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-xhdpi\\tip2.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
@@ -1454,6 +1470,14 @@
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_guide.xml.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tip1.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-xhdpi\\tip1.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1572,6 +1596,10 @@
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_image_003.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-xhdpi\\image_003.png"
+    },
+    {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -1594,6 +1622,10 @@
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_image_001.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-xhdpi\\image_001.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
@@ -1698,6 +1730,10 @@
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\fanyuhua\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1e1dd1ae391bb5957da876f583b05e28\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_image_002.png.flat",
+        "source": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\src\\main\\res\\mipmap-xhdpi\\image_002.png"
     },
     {
         "merged": "D:\\Android_stdio\\StuAssistent\\Finalassignment\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",

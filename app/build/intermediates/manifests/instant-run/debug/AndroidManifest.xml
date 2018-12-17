@@ -30,6 +30,10 @@
         <activity android:name="com.fanyuhua.finalassignment.MainActivity" />
         <activity android:name="com.fanyuhua.finalassignment.login.FindPassActivity" />
         <activity android:name="com.fanyuhua.finalassignment.login.RegisterActivity" />
+        <activity android:name="com.fanyuhua.finalassignment.guide.GuideActivity" />
+        <activity android:name="com.fanyuhua.finalassignment.tab.user.LogisticsActivity" />
+        <activity android:name="com.fanyuhua.finalassignment.tab.user.BrowseHistoryActivity" />
+        <activity android:name="com.fanyuhua.finalassignment.tab.user.BuyRecordActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

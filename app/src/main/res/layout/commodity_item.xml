@@ -46,7 +46,6 @@
                 android:layout_margin="5dp"
                 android:textColor="@color/price"
                 />
-
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
