@@ -5,42 +5,15 @@
     android:orientation="vertical">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:background="@color/bgcolor"
-        android:orientation="horizontal">
-
-        <CheckBox
-            android:id="@+id/allCB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="全选"
-            android:textColor="@color/txcolor"
-            android:layout_marginTop="20dp"/>
-
-        <TextView
-            android:id="@+id/ADDpriceTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="合计：￥0.0"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/txcolor"/>
-
-        <TextView
-            android:id="@+id/ADDsumTV"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="去结算0.0"
-            android:background="#EA0000"
-            android:textColor="@color/txcolor"
-            android:textSize="30dp" />
-    </LinearLayout>
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="20dp"
+        android:text="Button" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -59,6 +32,7 @@
             android:layout_margin="15dp"/>
 
         <ListView
+            android:id="@+id/listview_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />

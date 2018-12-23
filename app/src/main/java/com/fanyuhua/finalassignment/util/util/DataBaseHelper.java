@@ -4,6 +4,8 @@ package com.fanyuhua.finalassignment.util.util;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+import android.widget.Toast;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
 
@@ -30,7 +32,9 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 //        Toast.makeText(m_context,"数据表1创建成功",Toast.LENGTH_SHORT).show();
         String sql3 = "create table user (name varchar(30),passwd varchar(30),phone varchar(30))";
         sqLiteDatabase.execSQL(sql3);
-        //Toast.makeText(m_context,"The user database table created",Toast.LENGTH_SHORT).show();
+        String sql4 = "create table car(id int,name varchar(100),price int,count integer primary key autoincrement)";
+        sqLiteDatabase.execSQL(sql4);
+//        Toast.makeText(m_context,"The user database table created",Toast.LENGTH_SHORT).show();
     }
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {

@@ -1,6 +1,7 @@
 package com.fanyuhua.finalassignment.adapter;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -11,7 +12,7 @@ import com.fanyuhua.finalassignment.R;
 
 /**
  *
- * create by fanyuhua 2018.12.17
+ * create by fanyuhua 2018.12.20
  *
  * */
 public class CmAdaptrt extends BaseAdapter {
@@ -19,7 +20,10 @@ public class CmAdaptrt extends BaseAdapter {
     private String[] name;
     private int[] image;
     Context context;
+    LayoutInflater layoutInflater;
     public CmAdaptrt(Context context) {
+        //初始化布局装载对象
+        layoutInflater = LayoutInflater.from(context);
     this.context = context;
         price = new String[]{
                 "￥50289",
@@ -64,7 +68,12 @@ public class CmAdaptrt extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         //此处有疑问
-//        convertView = context.inflate(R.layout.commodity_item,parent,false);
+
+        if (convertView == null) {
+            convertView = layoutInflater.inflate(R.layout.commodity_item,null,false);
+        }
+
+//        View view = layoutInflater.inflate(R.layout.commodity_item,parent,false);
 
         ImageView imageView = convertView.findViewById(R.id.imageView);
         TextView tName = convertView.findViewById(R.id.com_nameTV);
@@ -75,6 +84,10 @@ public class CmAdaptrt extends BaseAdapter {
         tPrice.setText(price[position]);
 
         return convertView;
+    }
+    public interface callBack
+    {
+        public void click(View view);
     }
 }
 
