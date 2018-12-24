@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.fanyuhua.finalassignment.MainActivity;
 import com.fanyuhua.finalassignment.R;
+import com.fanyuhua.finalassignment.guide.GuideActivity;
 import com.fanyuhua.finalassignment.util.util.DataBaseHelper;
 /**
  *
@@ -39,6 +40,8 @@ public class ActivityLogin extends AppCompatActivity {
         boolean count = sp2.getBoolean("count",true);
         if(count)
         {
+            Intent intent = new Intent(ActivityLogin.this, GuideActivity.class);
+startActivity(intent);
             editor.putString("user","");
             editor.putString("passwd","");
             editor.putBoolean("login",true);

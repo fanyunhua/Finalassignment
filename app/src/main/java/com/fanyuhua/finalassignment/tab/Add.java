@@ -13,11 +13,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.fanyuhua.finalassignment.R;
 import com.fanyuhua.finalassignment.adapter.MyCmAdapter;
+import com.fanyuhua.finalassignment.dialog.Pay;
 import com.fanyuhua.finalassignment.util.util.Cm;
 import com.fanyuhua.finalassignment.util.util.DataBaseHelper;
 import com.fanyuhua.finalassignment.util.util.Image;
@@ -35,6 +37,7 @@ public class Add extends Fragment {
     private SQLiteDatabase db;
     private ListView listView;
     private List<Cm> list;
+    private Button add;
     MyCmAdapter mc;
     @Nullable
     @Override
@@ -49,8 +52,42 @@ public class Add extends Fragment {
 
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         listView.setAdapter(mc);
-
+        closeAccount();
         return view;
+    }
+
+    private void closeAccount() {
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int cc = listView.getCount();
+                Adapter a = listView.getAdapter();
+                String [] priceArray;
+                priceArray = new String[cc];
+                for (int i = 0;i<cc;i++)
+                {
+                    Cm c = (Cm)a.getItem(i);
+//                     priceArray[i]= c.getPrice();
+                    String ac = c.getPrice();
+                    priceArray[i] = new String (ac.split("￥")[1]);
+//                    Toast.makeText(getContext(),""+ac.split("￥")[1],Toast.LENGTH_SHORT).show();
+                }
+                int [] priceData = new int[cc];
+                int p = 0;
+                for (int i = 0;i<cc;i++)
+                {
+                    priceData[i] = Integer.parseInt(priceArray[i]);
+                    p = p+priceData[i];
+                }
+                Pay dlg = new Pay();
+                dlg.setPrice(p);
+                dlg.show(getFragmentManager(),"pay");
+                Toast.makeText(getContext(),"共"+p+"元",Toast.LENGTH_SHORT).show();
+
+
+
+            }
+        });
     }
 
     private void deleteCm() {
@@ -64,7 +101,7 @@ public class Add extends Fragment {
                 int  count = c.getCount();
                 db.delete("car","count=?",new String[]{count+""});
                 Toast.makeText(getContext(),"删除成功",Toast.LENGTH_SHORT).show();
-
+                getActivity().recreate();
                 return true;
             }
         });
@@ -72,6 +109,7 @@ public class Add extends Fragment {
 
     private void initView(View view) {
         listView = view.findViewById(R.id.listview_add);
+        add = view.findViewById(R.id.addBTN);
     }
 
     private void initDataBase() {
